@@ -155,3 +155,59 @@
   color: #64748b;
   line-height: 1.6;
 }
+
+
+.brain-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  padding: 100px 80px;
+}
+
+
+
+.image-box img {
+  max-width: 420px;
+  width: 100%;
+}
+
+
+
+.content-box {
+  max-width: 500px;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #22c55e;
+  letter-spacing: 1px;
+}
+
+.content-box h1 {
+  font-size: 38px;
+  color: #0f172a;
+  margin: 12px 0 18px;
+  line-height: 1.2;
+}
+
+.peragrap{
+  font-size: 15px;
+  color: #64748b;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.feature-list {
+  list-style: none;
+}
+
+.feature-list li {
+  font-size: 15px;
+  color: #0f172a;
+  margin-bottom: 12px;
+  padding-left: 24px;
+ 
+  
+}
