@@ -40,3 +40,57 @@
     color: white;
     border-radius: 4px;  
 }
+.bg{
+    background-image: url("/assets/hero-bg.png") ;
+    height: 674px;
+    padding: 154px 341px;
+    
+}
+.st_section{ 
+
+   text-align: center;
+    width: 85%px;
+    max-width: 1360px;
+}
+.access_key button{ 
+    color: #30B868;
+    font-style: smoll;
+    height: 19px;
+    border-radius: 12px;
+    border: none;
+}
+.st_section p{
+    line-height: 24px;
+    font-size: 18px;
+    color: white;
+}
+.two_btn{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    gap: 8px;
+
+}
+.primary
+{
+    background-color: #30B868;
+    color: white;
+    border: none;
+    padding: 16px; 
+    border-radius: 4px;
+}
+.secondary{
+    padding:15px;
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid rgb(255, 255, 255);
+    color: white;
+
+}
+.secondary img{
+     width: 12px;
+     height: 12px;
+    filter: invert(2);
+
+}
