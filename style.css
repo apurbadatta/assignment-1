@@ -93,4 +93,65 @@
      height: 12px;
     filter: invert(2);
 
+} 
+
+
+
+.problem-section {
+  text-align: center;
+  padding: 80px 60px;
+}
+
+.problem-section h1 {
+  font-size: 36px;
+  font-weight: 700;
+  color: #0f172a;
+  margin-bottom: 12px;
+}
+
+.subtitle {
+  font-size: 16px;
+  color: #64748b;
+  max-width: 700px;
+  margin: 0 auto 50px;
+}
+
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 25px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 30px 25px;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.icon {
+  width: 48px;
+  height: 48px;
+  background-color: #F95555;
+  color: #ffffff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  margin: 0 auto 18px;
+}
+
+.card h3 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 16px;
+  color: #64748b;
+  line-height: 1.6;
 }
