@@ -123,9 +123,12 @@
 }
 
 .card-container {
-  display: grid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   grid-template-columns: repeat(4, 1fr);
   gap: 25px;
+  margin-left: 100px;
 }
 
 .card {
@@ -181,7 +184,9 @@
 
 
 .content-box {
-  max-width: 81%;
+  max-width: 85%;
+  align-items: center;
+  margin-right: 100px;
 }
 
 .label {
