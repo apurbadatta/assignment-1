@@ -43,7 +43,7 @@
 }
 
 .bg{
-    background-image: url("/assets/hero-bg.png") ;
+    background-image: url("./assets/hero-bg.png") ;
     height: 674px;
     padding: 154px 341px;
     
@@ -181,7 +181,7 @@
 
 
 .content-box {
-  max-width: 500px;
+  max-width: 81%;
 }
 
 .label {
@@ -217,7 +217,10 @@
  
   
 }
-
+.card-container{
+  max-width:1360px ;
+  width: 85%;
+}
 
 .card{
     max-width: 1000px;
